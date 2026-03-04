@@ -4,9 +4,6 @@ const nextConfig = {
   turbopack: {
     resolveExtensions: ['.js', '.jsx', '.ts', '.tsx', '.wasm'],
   },
-  experimental: {
-    esmExternals: 'loose',
-  },
 };
 
 export default nextConfig;
